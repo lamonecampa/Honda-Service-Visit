@@ -24,11 +24,11 @@ const CONFIG = {
 //https://lamonecampa.github.io/Honda-Service-Visit/index.html
   // Jadwal sesi berdasarkan range nomor
   SESI: [
-    { from: 1,  to: 20,  label: 'Sesi 1', time: '08.00 WIB', range: 'A001–A020' },
-    { from: 21, to: 40,  label: 'Sesi 2', time: '09.00 WIB', range: 'A021–A040' },
-    { from: 41, to: 60,  label: 'Sesi 3', time: '10.00 WIB', range: 'A041–A060' },
-    { from: 61, to: 80,  label: 'Sesi 4', time: '11.00 WIB', range: 'A061–A080' },
-    { from: 81, to: 100, label: 'Sesi 5', time: '12.00 WIB', range: 'A081–A100' },
+     { from: 1,   to: 100, label: 'Sesi 1', time: '08.00 WIB', range: 'A001–A100' },
+     { from: 101, to: 200, label: 'Sesi 2', time: '10.00 WIB', range: 'A101–A200' },
+     { from: 201, to: 300, label: 'Sesi 3', time: '12.00 WIB', range: 'A201–A300' },
+     { from: 301, to: 400, label: 'Sesi 4', time: '14.00 WIB', range: 'A301–A400' },
+     { from: 401, to: 500, label: 'Sesi 5', time: '16.00 WIB', range: 'A401–A500' },
   ],
 };
 
