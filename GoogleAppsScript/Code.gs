@@ -15,11 +15,12 @@
  */
 
 // ─── KONFIGURASI ───────────────────────────
-const SPREADSHEET_ID = 'GANTI_DENGAN_ID_SPREADSHEET_KAMU';
-// ID ada di URL: https://docs.google.com/spreadsheets/d/[ID_DI_SINI]/edit
+const SPREADSHEET_ID = '1vQHb7TJ8QG-KYtZty3fd7EgWaEIb3VQgqfoNHzzo1F4';
+// ID ada di URL: https://docs.google.com/spreadsheets/d/[ID_DI_SINI]/edit 
+//https://docs.google.com/spreadsheets/d/1vQHb7TJ8QG-KYtZty3fd7EgWaEIb3VQgqfoNHzzo1F4/edit?gid=0#gid=0
 
 const SHEET_NAME     = 'Pendaftar';   // nama tab sheet
-const KUOTA_MAX      = 100;           // batas maksimum peserta
+const KUOTA_MAX      = 1000;           // batas maksimum peserta
 
 // ─── KOLOM HEADER ──────────────────────────
 const HEADERS = [
