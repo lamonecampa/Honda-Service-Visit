@@ -7,7 +7,9 @@
 // ══════════════════════════════════════════════
 const CONFIG = {
   // Setelah deploy Google Apps Script, tempel URL Web App di sini:
-  GAS_URL: 'https://script.google.com/macros/s/AKfycbwgFuhGvfbmjzkRwpNZFqeuUqgC2Z9Pd7AEkaXPlcO0cWrbTnykAFU2rJ5j1xWuJlA/exec',
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbwhxSt_ZIcF7uRFxiZ0q39YVtFJJh8zp2icmk7e78GahA3_miev-E-cXLgVjvvqFTw/exec',
+
+   //https://script.google.com/macros/s/AKfycbwhxSt_ZIcF7uRFxiZ0q39YVtFJJh8zp2icmk7e78GahA3_miev-E-cXLgVjvvqFTw/exec
 //https://script.google.com/macros/s/AKfycbwQKrUx8XlnZYHEy0zuuZbXUxv-TwuzO-nk4im1drTm4kdZpsgbRj9gyVhHbL4JnAE/exec
    //https://script.google.com/macros/s/AKfycbwgFuhGvfbmjzkRwpNZFqeuUqgC2Z9Pd7AEkaXPlcO0cWrbTnykAFU2rJ5j1xWuJlA/exec
    
