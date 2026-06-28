@@ -7,17 +7,18 @@
 // ══════════════════════════════════════════════
 const CONFIG = {
   // Setelah deploy Google Apps Script, tempel URL Web App di sini:
-  GAS_URL: 'https://script.google.com/macros/s/GANTI_DENGAN_URL_DEPLOYMENT_KAMU/exec',
-
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbwQKrUx8XlnZYHEy0zuuZbXUxv-TwuzO-nk4im1drTm4kdZpsgbRj9gyVhHbL4JnAE/exec',
+//https://script.google.com/macros/s/AKfycbwQKrUx8XlnZYHEy0zuuZbXUxv-TwuzO-nk4im1drTm4kdZpsgbRj9gyVhHbL4JnAE/exec
+   
   // Tanggal penutupan pendaftaran (format: YYYY-MM-DDTHH:MM:SS)
-  DEADLINE: '2025-07-11T23:59:00',
+  DEADLINE: '2026-06-29T23:59:00',
 
   // Tanggal event (untuk tampilan saja)
-  EVENT_DATE: 'Sabtu, 12 Juli 2025',
+  EVENT_DATE: 'Senin, 29 Juni 2026',
 
   // URL base untuk QR Code (misalnya GitHub Pages kamu)
-  QR_BASE_URL: 'https://username.github.io/Honda-Service-Visit/success.html',
-
+  QR_BASE_URL: 'https://lamonecampa.github.io/Honda-Service-Visit/index.html',
+//https://lamonecampa.github.io/Honda-Service-Visit/index.html
   // Jadwal sesi berdasarkan range nomor
   SESI: [
     { from: 1,  to: 20,  label: 'Sesi 1', time: '08.00 WIB', range: 'A001–A020' },
