@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiket – Honda Service Visit UIBU</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Inter:wght@400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="success-page">
+
+<div class="success-wrap">
+
+  <!-- Confetti layer -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Header bar -->
+  <div class="success-topbar">
+    <div class="ahass-text-sm">AHASS</div>
+    <div class="success-topbar-title">Honda Service Visit UIBU</div>
+  </div>
+
+  <div class="container">
+
+    <!-- Success banner -->
+    <div class="success-banner">
+      <div class="success-icon"><i class="bi bi-check-circle-fill"></i></div>
+      <div>
+        <h2 class="success-title">Pendaftaran Berhasil!</h2>
+        <p class="success-sub">Simpan tiket ini sebagai bukti pendaftaran</p>
+      </div>
+    </div>
+
+    <!-- ════════ TIKET ════════ -->
+    <div class="ticket-wrapper" id="ticketEl">
+
+      <!-- Ticket Head -->
+      <div class="ticket-head">
+        <div class="ticket-brand">
+          <span class="ticket-ahass">AHASS</span>
+          <span class="ticket-event">HONDA SERVICE VISIT</span>
+        </div>
+        <div class="ticket-uibu">UIBU · 2025</div>
+      </div>
+
+      <!-- Queue Number — THE SIGNATURE ELEMENT -->
+      <div class="queue-block">
+        <div class="queue-label">NOMOR ANTREAN</div>
+        <div class="queue-number" id="queueDisplay">A-000</div>
+        <div class="queue-sesi" id="queueSesi">Sesi 1 · Hadir Pukul 08.00 WIB</div>
+      </div>
+
+      <!-- Ticket perforation -->
+      <div class="ticket-perforation">
+        <div class="perf-circle perf-left"></div>
+        <div class="perf-line"></div>
+        <div class="perf-circle perf-right"></div>
+      </div>
+
+      <!-- Ticket Body -->
+      <div class="ticket-body">
+        <div class="ticket-info-grid">
+          <div class="ticket-info-item">
+            <span class="ti-label">Nama</span>
+            <span class="ti-value" id="tikNama">—</span>
+          </div>
+          <div class="ticket-info-item">
+            <span class="ti-label">Status</span>
+            <span class="ti-value" id="tikStatus">—</span>
+          </div>
+          <div class="ticket-info-item">
+            <span class="ti-label">NIM / NIP</span>
+            <span class="ti-value" id="tikNim">—</span>
+          </div>
+          <div class="ticket-info-item">
+            <span class="ti-label">No. WA</span>
+            <span class="ti-value" id="tikWa">—</span>
+          </div>
+          <div class="ticket-info-item">
+            <span class="ti-label">Motor</span>
+            <span class="ti-value" id="tikMotor">—</span>
+          </div>
+          <div class="ticket-info-item">
+            <span class="ti-label">Plat</span>
+            <span class="ti-value" id="tikPlat">—</span>
+          </div>
+        </div>
+
+        <!-- QR Code -->
+        <div class="qr-block">
+          <div id="qrcode"></div>
+          <p class="qr-caption">Tunjukkan QR ini kepada petugas</p>
+        </div>
+      </div>
+
+      <!-- Ticket Footer -->
+      <div class="ticket-footer">
+        <div class="ticket-date"><i class="bi bi-calendar3"></i> Sabtu, 12 Juli 2025 &nbsp;·&nbsp; <i class="bi bi-geo-alt"></i> Kampus UIBU, Cirebon</div>
+      </div>
+
+    </div>
+    <!-- end tiket -->
+
+    <!-- Sesi info card -->
+    <div class="sesi-info-card" id="sesiInfoCard">
+      <div class="sesi-info-icon"><i class="bi bi-clock-history"></i></div>
+      <div>
+        <div class="sesi-info-title" id="sesiInfoTitle">Sesi 1 – Hadir Pukul 08.00 WIB</div>
+        <div class="sesi-info-desc" id="sesiInfoDesc">Nomor antrean A001–A020 harap hadir pukul 08.00 WIB</div>
+      </div>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="action-buttons">
+      <button class="btn-action btn-screenshot" onclick="downloadTicket()">
+        <i class="bi bi-download me-2"></i>Simpan Tiket
+      </button>
+      <button class="btn-action btn-share" onclick="shareTicket()">
+        <i class="bi bi-share me-2"></i>Bagikan
+      </button>
+      <a href="index.html" class="btn-action btn-home">
+        <i class="bi bi-house me-2"></i>Beranda
+      </a>
+    </div>
+
+    <p class="screenshot-hint">
+      <i class="bi bi-phone"></i> Screenshot halaman ini atau unduh tiket sebagai bukti pendaftaran
+    </p>
+
+  </div>
+</div>
+
+<!-- QRCode.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<!-- html2canvas for download -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
