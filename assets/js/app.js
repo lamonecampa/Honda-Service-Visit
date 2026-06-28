@@ -7,8 +7,9 @@
 // ══════════════════════════════════════════════
 const CONFIG = {
   // Setelah deploy Google Apps Script, tempel URL Web App di sini:
-  GAS_URL: 'https://script.google.com/macros/s/AKfycbwQKrUx8XlnZYHEy0zuuZbXUxv-TwuzO-nk4im1drTm4kdZpsgbRj9gyVhHbL4JnAE/exec',
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbwgFuhGvfbmjzkRwpNZFqeuUqgC2Z9Pd7AEkaXPlcO0cWrbTnykAFU2rJ5j1xWuJlA/exec',
 //https://script.google.com/macros/s/AKfycbwQKrUx8XlnZYHEy0zuuZbXUxv-TwuzO-nk4im1drTm4kdZpsgbRj9gyVhHbL4JnAE/exec
+   //https://script.google.com/macros/s/AKfycbwgFuhGvfbmjzkRwpNZFqeuUqgC2Z9Pd7AEkaXPlcO0cWrbTnykAFU2rJ5j1xWuJlA/exec
    
   // Tanggal penutupan pendaftaran (format: YYYY-MM-DDTHH:MM:SS)
   DEADLINE: '2026-06-29T23:59:00',
