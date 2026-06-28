@@ -7,7 +7,7 @@
 
 const SPREADSHEET_ID = '1vQHb7TJ8QG-KYtZty3fd7EgWaEIb3VQgqfoNHzzo1F4';
 const SHEET_NAME     = 'Pendaftar';
-const KUOTA_MAX      = 100;
+const KUOTA_MAX      = 500;
 
 const HEADERS = [
   'No', 'Antrian', 'Nama', 'Status', 'NIM/NIP',
@@ -16,11 +16,11 @@ const HEADERS = [
 ];
 
 const SESI_CONFIG = [
-  { from: 1,  to: 20,  label: 'Sesi 1 – 08.00 WIB' },
-  { from: 21, to: 40,  label: 'Sesi 2 – 09.00 WIB' },
-  { from: 41, to: 60,  label: 'Sesi 3 – 10.00 WIB' },
-  { from: 61, to: 80,  label: 'Sesi 4 – 11.00 WIB' },
-  { from: 81, to: 100, label: 'Sesi 5 – 12.00 WIB' },
+  { from: 1,   to: 100, label: 'Sesi 1 – 08:00 WIB' },
+  { from: 101, to: 200, label: 'Sesi 2 – 10:00 WIB' },
+  { from: 201, to: 300, label: 'Sesi 3 – 12:00 WIB' },
+  { from: 301, to: 400, label: 'Sesi 4 – 14:00 WIB' },
+  { from: 401, to: 500, label: 'Sesi 5 – 16:00 WIB' },
 ];
 
 // ════════════════════════════════════════════
